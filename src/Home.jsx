@@ -32,7 +32,7 @@ const Home = () =>{
                 </div>
             </div>
         </div>
-
+<br/><br/><br/><br/><br/><br/><br/>
         <div class="footer">
            <p>HOME</p>
         </div>
