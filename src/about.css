@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+*{
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.pragraph{
+    font-family: 'IBM Plex Serif', serif;
+    text-align: center;
+    
+}
+
+.imgabout1{
+    width: 350px;
+    padding-top: 40px;
+    animation:imgAnimation 1s ease-in-out infinite alternate-reverse both;
+   
+}
+
+@keyframes imgAnimation{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(107, 140, 248);
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .abouthere{
+      text-align: center;
+      
+  }
+
+.secondContainer{
+    margin-top: 20px;
+    background-color: azure;
+    text-align: center;
+    align-items: center;
+    
+}
+
+pre{
+    font-family: 'IBM Plex Serif', serif;
+}
+  
+
+.tagcomputerengineer{
+    color: rgb(7, 89, 92);
+}
